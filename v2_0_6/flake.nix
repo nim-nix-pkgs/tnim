@@ -11,7 +11,6 @@
   inputs.src-tnim-v2_0_6.ref   = "refs/tags/v2.0.6";
   inputs.src-tnim-v2_0_6.owner = "jlp765";
   inputs.src-tnim-v2_0_6.repo  = "tnim";
-  inputs.src-tnim-v2_0_6.dir   = "";
   inputs.src-tnim-v2_0_6.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

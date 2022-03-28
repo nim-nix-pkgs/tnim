@@ -11,7 +11,6 @@
   inputs.src-tnim-master.ref   = "refs/heads/master";
   inputs.src-tnim-master.owner = "jlp765";
   inputs.src-tnim-master.repo  = "tnim";
-  inputs.src-tnim-master.dir   = "";
   inputs.src-tnim-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
